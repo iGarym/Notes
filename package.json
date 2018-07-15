@@ -1,0 +1,16 @@
+{
+  "name": "notes",
+  "version": "1.0.0",
+  "description": "My notes",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Gaoym <igary.gym@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^1.2.0",
+    "vuepress": "^0.12.0"
+  }
+}
